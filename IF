@@ -1,7 +1,6 @@
-
-
 #IFCURSOS
-
+ 
+# IFCURSOS
 Uma breve descrição sobre o que esse projeto faz e para quem ele é
 Interessados em em temas relacionados à informática / tecnologia da informação (TI) podem se inscrever nos cursos de Educação a Distância (EaD) oferecidos gratuitamente pelo Instituto Federal de Educação, Ciência e Tecnologia do Rio Grande do Sul (IFRS).
 
@@ -14,6 +13,43 @@ Os cursos abordam conceitos relacionados a programação, linguagens de marcaç�
 
  #govcursos
  ma oportunidade de fazer cursos online e gratuitos, destinados à qualificação profissional do cidadão por meio da transformação digital. Este é o Caminho Digital, um programa que oferece 5,5 milhões de vagas distribuídas em 134 cursos na área de tecnologia da informação, produtividade e finanças. O objetivo é auxiliar os trabalhadores a encontrarem uma vaga no mercado de trabalho, ou a ascender a um novo posto ou ainda qualificar os que desejam empreender.
+
+
+
+
+## Documentação da API
+
+#### Retorna todos os itens
+
+```http
+  GET /api/items
+```
+
+| Parâmetro   | Tipo       | Descrição                           |
+| :---------- | :--------- | :---------------------------------- |
+| `api_key` | `string` | **Obrigatório**. A chave da sua API |
+
+#### Retorna um item
+
+```http
+  GET /api/items/${id}
+```
+
+| Parâmetro   | Tipo       | Descrição                                   |
+| :---------- | :--------- | :------------------------------------------ |
+| `id`      | `string` | **Obrigatório**. O ID do item que você quer |
+
+#### add(num1, num2)
+
+Recebe dois números e retorna a sua soma.
+
+
+## Apêndice
+
+Coloque qualquer informação adicional aqui
+
+
+
 
  Clique aqui https://www.gov.br/casacivil/pt-br/assuntos/noticias/2022/setembro/caminho-digital-um-programa-que-oferece-cursos-gratuitos-em-ti
 
